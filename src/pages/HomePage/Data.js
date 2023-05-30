@@ -1,68 +1,67 @@
 export const homeObjOne = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
-    description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: require('../../images/svg-1.svg'),
-    alt: 'Credit Card',
-    start: ''
-  };
-  
-  export const homeObjTwo = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Instant Setup',
-    headline: 'Extremely quick onboarding process',
-    description:
-      "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-    buttonLabel: 'Learn More',
-    imgStart: '',
-    img: require('../../images/svg-2.svg'),
-    alt: 'Vault',
-    start: ''
-  };
-  
-  export const homeObjThree = {
-    primary: false,
-    lightBg: true,
-    lightTopLine: false,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Sarah Jeni',
-    headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
-    description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
-    imgStart: 'start',
-    img: require('../../images/profile.jpg'),
-    alt: 'Vault',
-    start: 'true'
-  };
-  
-  export const homeObjFour = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Secure Database',
-    headline: 'All your data is stored on our secure server',
-    description:
-      'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
-    buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
-    img: require('../../images/svg-3.svg'),
-    alt: 'Vault',
-    start: 'true'
-  };
+	primary: true,
+	lightBg: false,
+	lightTopLine: true,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Transforming Moments into Masterpieces',
+	headline: 'Unlock the Power of Visual Storytelling with Our Video Editing, Photoshopping, and Photography Services',
+	description:
+		"At Pixel Perfect Productions, we bring your visuals to life. Our skilled team of video editors, Photoshop experts, and photographers are dedicated to creating captivating content that exceeds your expectations. From editing videos to enhancing photos and capturing unforgettable moments, we're here to transform your vision into stunning masterpieces.",
+	buttonLabel: 'Email Us',
+	imgStart: '',
+	img: require('../../images/home.png'),
+	alt: 'Credit Card',
+	start: '',
+};
+
+export const homeObjTwo = {
+	primary: true,
+	lightBg: false,
+	lightTopLine: true,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Photoshop',
+	headline: 'Transform Your Photos with Expert Photoshopping Services',
+	description:
+		'Elevate your photos to perfection with our professional photoshopping service. Whether you need retouching, color correction, or creative enhancements, our skilled team will bring your images to life and ensure they leave a lasting impression. Trust us to deliver stunning results that exceed your expectations.',
+	buttonLabel: 'Request Photo Album',
+	imgStart: '',
+	img: require('../../images/photoshop.jpg'),
+	alt: 'Vault',
+	start: '',
+};
+
+export const homeObjThree = {
+	primary: false,
+	lightBg: true,
+	lightTopLine: false,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Video Edit',
+	headline: 'Transform Your Videos into Masterpieces with Our Expert Editing Service',
+	description:
+		'Elevate your videos with our expert editing service. From trimming and enhancing footage to creating seamless transitions and captivating effects, we transform your raw content into a polished and engaging final product. Let us bring your vision to life and captivate your audience with stunning visuals.',
+	buttonLabel: 'Browse Sample Videos',
+	imgStart: 'start',
+	img: require('../../images/profile.jpg'),
+	alt: 'Vault',
+	start: 'true',
+};
+
+export const homeObjFour = {
+	primary: true,
+	lightBg: false,
+	lightTopLine: true,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Photography',
+	headline: 'Preserve Your Precious Moments with Exceptional Photography Services',
+	description:
+		"Capture the Moments that Matter with Professional Photography Services. Whether it's a special event, a portrait session, or a product shoot, I am dedicated to delivering stunning and timeless images that will beautifully preserve your memories. Let me help you tell your story through the lens of my camera.",
+	buttonLabel: 'Schedule an Appointment',
+	imgStart: 'start',
+	img: require('../../images/photograph.jpg'),
+	alt: 'Vault',
+	start: 'true',
+};
