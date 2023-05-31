@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 // import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiPostStamp } from 'react-icons/gi';
+import { GiPostStamp, GiLightBulb } from 'react-icons/gi';
 import { GiPhotoCamera, GiVideoCamera } from 'react-icons/gi';
 // import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
@@ -37,12 +37,13 @@ const Pricing = () => {
 								<PricingCardLength>per 30 minutes</PricingCardLength>
 								<PricingCardFeatures>
 									<PricingCardFeature>Complete in 3-6 days</PricingCardFeature>
-									<PricingCardFeature>Output Format: MP4, MOV, AVI</PricingCardFeature>
+									<PricingCardFeature>Output: MP4, MOV, AVI</PricingCardFeature>
 									<PricingCardFeature>24/7 Support</PricingCardFeature>
 								</PricingCardFeatures>
 								<Button primary>Purchase</Button>
 							</PricingCardInfo>
 						</PricingCard>
+
 						<PricingCard to='/sign-up'>
 							<PricingCardInfo>
 								<PricingCardIcon>
@@ -53,12 +54,13 @@ const Pricing = () => {
 								<PricingCardLength>per photo</PricingCardLength>
 								<PricingCardFeatures>
 									<PricingCardFeature>Complete in 1-2 days</PricingCardFeature>
-									<PricingCardFeature>Output Format: JPG, PNG, RAW</PricingCardFeature>
+									<PricingCardFeature>Output: JPG, PNG, RAW</PricingCardFeature>
 									<PricingCardFeature>24/7 Support</PricingCardFeature>
 								</PricingCardFeatures>
 								<Button primary>Purchase</Button>
 							</PricingCardInfo>
 						</PricingCard>
+
 						<PricingCard to='/sign-up'>
 							<PricingCardInfo>
 								<PricingCardIcon>
@@ -69,7 +71,24 @@ const Pricing = () => {
 								<PricingCardLength>per hour</PricingCardLength>
 								<PricingCardFeatures>
 									<PricingCardFeature>Email for appointment</PricingCardFeature>
-									<PricingCardFeature>Output Format: JPG, PNG, RAW</PricingCardFeature>
+									<PricingCardFeature>Output: JPG, PNG, RAW</PricingCardFeature>
+									<PricingCardFeature>24/7 Support</PricingCardFeature>
+								</PricingCardFeatures>
+								<Button primary>Purchase</Button>
+							</PricingCardInfo>
+						</PricingCard>
+
+						<PricingCard to='/sign-up'>
+							<PricingCardInfo>
+								<PricingCardIcon>
+									<GiLightBulb />
+								</PricingCardIcon>
+								<PricingCardPlan>Photography Advice</PricingCardPlan>
+								<PricingCardCost>$25</PricingCardCost>
+								<PricingCardLength>per hour</PricingCardLength>
+								<PricingCardFeatures>
+									<PricingCardFeature>Email for appointment</PricingCardFeature>
+									<PricingCardFeature>Zoom Meeting</PricingCardFeature>
 									<PricingCardFeature>24/7 Support</PricingCardFeature>
 								</PricingCardFeatures>
 								<Button primary>Purchase</Button>
