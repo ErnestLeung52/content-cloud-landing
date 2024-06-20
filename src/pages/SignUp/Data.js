@@ -6,7 +6,7 @@ export const homeObjOne = {
 	topLine: 'Contact',
 	headline: 'Contact us today to receive an exclusive offer',
 	description: 'Get access to our exclusive service package. Limited quantity available.',
-	buttonLabel: 'support@pixelperfectproductions.com',
+	buttonLabel: 'customerservicet@contentclouddigital.com',
 	imgStart: '',
 	img: require('../../images/svg-1.svg'),
 	alt: 'Credit Card',
