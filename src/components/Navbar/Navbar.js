@@ -14,6 +14,7 @@ import {
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import cloudLogo from '../../images/cloudLogo.png';
 
 function Navbar() {
 	const [click, setClick] = useState(false);
@@ -64,8 +65,9 @@ function Navbar() {
 				<Nav>
 					<NavbarContainer>
 						<NavLogo to='/'>
-							<NavIcon />
-							Pixel Perfect Productions
+							{/* <NavIcon /> */}
+							<img src={cloudLogo} style={{ width: 90, height: 90 }} />
+							Content Cloud Digital
 						</NavLogo>
 						<HamburgerIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />}</HamburgerIcon>
 						<NavMenu onClick={handleClick} click={click}>

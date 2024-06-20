@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../../globalStyles';
 // import { AiFillThunderbolt } from 'react-icons/ai';
 import { GiPostStamp, GiLightBulb } from 'react-icons/gi';
-import { GiPhotoCamera, GiVideoCamera } from 'react-icons/gi';
+import { GiLoveLetter, GiCalendar } from 'react-icons/gi';
 // import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
@@ -30,51 +30,17 @@ const Pricing = () => {
 						<PricingCard to='/sign-up'>
 							<PricingCardInfo>
 								<PricingCardIcon>
-									<GiVideoCamera />
+									<GiCalendar />
 								</PricingCardIcon>
-								<PricingCardPlan>Video Edit</PricingCardPlan>
-								<PricingCardCost>$60</PricingCardCost>
-								<PricingCardLength>per 30 minutes</PricingCardLength>
+								<PricingCardPlan>Content Calendars</PricingCardPlan>
+								<PricingCardCost>$36</PricingCardCost>
+								<PricingCardLength>per week</PricingCardLength>
 								<PricingCardFeatures>
-									<PricingCardFeature>Complete in 3-6 days</PricingCardFeature>
-									<PricingCardFeature>Output: MP4, MOV, AVI</PricingCardFeature>
-									<PricingCardFeature>24/7 Support</PricingCardFeature>
+									<PricingCardFeature>Plan content schedules</PricingCardFeature>
+									<PricingCardFeature>Complete in 1 week</PricingCardFeature>
+									{/* <PricingCardFeature>24/7 Support</PricingCardFeature> */}
 								</PricingCardFeatures>
-								<Button primary>Purchase</Button>
-							</PricingCardInfo>
-						</PricingCard>
-
-						<PricingCard to='/sign-up'>
-							<PricingCardInfo>
-								<PricingCardIcon>
-									<GiPostStamp />
-								</PricingCardIcon>
-								<PricingCardPlan>Photoshop</PricingCardPlan>
-								<PricingCardCost>$15</PricingCardCost>
-								<PricingCardLength>per photo</PricingCardLength>
-								<PricingCardFeatures>
-									<PricingCardFeature>Complete in 1-2 days</PricingCardFeature>
-									<PricingCardFeature>Output: JPG, PNG, RAW</PricingCardFeature>
-									<PricingCardFeature>24/7 Support</PricingCardFeature>
-								</PricingCardFeatures>
-								<Button primary>Purchase</Button>
-							</PricingCardInfo>
-						</PricingCard>
-
-						<PricingCard to='/sign-up'>
-							<PricingCardInfo>
-								<PricingCardIcon>
-									<GiPhotoCamera />
-								</PricingCardIcon>
-								<PricingCardPlan>Photography</PricingCardPlan>
-								<PricingCardCost>$30</PricingCardCost>
-								<PricingCardLength>per hour</PricingCardLength>
-								<PricingCardFeatures>
-									<PricingCardFeature>Email for appointment</PricingCardFeature>
-									<PricingCardFeature>Output: JPG, PNG, RAW</PricingCardFeature>
-									<PricingCardFeature>24/7 Support</PricingCardFeature>
-								</PricingCardFeatures>
-								<Button primary>Purchase</Button>
+								<Button primary>Contact</Button>
 							</PricingCardInfo>
 						</PricingCard>
 
@@ -83,15 +49,49 @@ const Pricing = () => {
 								<PricingCardIcon>
 									<GiLightBulb />
 								</PricingCardIcon>
-								<PricingCardPlan>Photography Advice</PricingCardPlan>
-								<PricingCardCost>$25</PricingCardCost>
+								<PricingCardPlan>Strategy Planning</PricingCardPlan>
+								<PricingCardCost>$32</PricingCardCost>
+								<PricingCardLength>per day</PricingCardLength>
+								<PricingCardFeatures>
+									<PricingCardFeature>Align Strategy and Goal</PricingCardFeature>
+									<PricingCardFeature>Complete in 1-2 weeks</PricingCardFeature>
+									{/* <PricingCardFeature>24/7 Support</PricingCardFeature> */}
+								</PricingCardFeatures>
+								<Button primary>Contact</Button>
+							</PricingCardInfo>
+						</PricingCard>
+
+						<PricingCard to='/sign-up'>
+							<PricingCardInfo>
+								<PricingCardIcon>
+									<GiLoveLetter />
+								</PricingCardIcon>
+								<PricingCardPlan>Web Content</PricingCardPlan>
+								<PricingCardCost>$99</PricingCardCost>
+								<PricingCardLength>per 500/words</PricingCardLength>
+								<PricingCardFeatures>
+									<PricingCardFeature>Write compelling stories</PricingCardFeature>
+									<PricingCardFeature>Complete in 1 week</PricingCardFeature>
+									{/* <PricingCardFeature>24/7 Support</PricingCardFeature> */}
+								</PricingCardFeatures>
+								<Button primary>Contact</Button>
+							</PricingCardInfo>
+						</PricingCard>
+
+						<PricingCard to='/sign-up'>
+							<PricingCardInfo>
+								<PricingCardIcon>
+									<GiPostStamp />
+								</PricingCardIcon>
+								<PricingCardPlan>Profile Optimization</PricingCardPlan>
+								<PricingCardCost>$33</PricingCardCost>
 								<PricingCardLength>per hour</PricingCardLength>
 								<PricingCardFeatures>
-									<PricingCardFeature>Email for appointment</PricingCardFeature>
-									<PricingCardFeature>Zoom Meeting</PricingCardFeature>
-									<PricingCardFeature>24/7 Support</PricingCardFeature>
+									<PricingCardFeature>Enhance Profile Impact</PricingCardFeature>
+									{/* <PricingCardFeature>Zoom Meeting</PricingCardFeature> */}
+									<PricingCardFeature>Complete in 2-3 days</PricingCardFeature>
 								</PricingCardFeatures>
-								<Button primary>Purchase</Button>
+								<Button primary>Contact</Button>
 							</PricingCardInfo>
 						</PricingCard>
 					</PricingContainer>

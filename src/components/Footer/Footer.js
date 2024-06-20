@@ -21,6 +21,7 @@ import {
 	SocialIcons,
 	SocialIconLink,
 } from './Footer.elements';
+import cloudLogo from '../../images/cloudLogo.png';
 
 function Footer() {
 	const date = new Date();
@@ -28,7 +29,7 @@ function Footer() {
 	return (
 		<FooterContainer>
 			<FooterSubscription>
-				<FooterSubHeading>Join our exclusive membership to receive the latest news and trends</FooterSubHeading>
+				<FooterSubHeading>Join our exclusive email list to receive the latest news and trends</FooterSubHeading>
 				<FooterSubText>You can unsubscribe at any time.</FooterSubText>
 				<Form>
 					<FormInput name='email' type='email' placeholder='Your Email' />
@@ -73,10 +74,11 @@ function Footer() {
 			<SocialMedia>
 				<SocialMediaWrap>
 					<SocialLogo to='/'>
-						<SocialIcon />
-						Pixel Perfect Productions
+						{/* <SocialIcon /> */}
+						<img src={cloudLogo} style={{ width: 90, height: 90 }} />
+						Content Cloud Digital
 					</SocialLogo>
-					<WebsiteRights>Pixel Perfect Productions © {date.getFullYear()} </WebsiteRights>
+					<WebsiteRights>Content Cloud Digital © {date.getFullYear()} </WebsiteRights>
 					<SocialIcons>
 						<SocialIconLink href='/' target='_blank' aria-label='Facebook'>
 							<FaFacebook />
