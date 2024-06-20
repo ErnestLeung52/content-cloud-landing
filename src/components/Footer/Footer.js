@@ -16,7 +16,6 @@ import {
 	SocialMedia,
 	SocialMediaWrap,
 	SocialLogo,
-	SocialIcon,
 	WebsiteRights,
 	SocialIcons,
 	SocialIconLink,
@@ -75,7 +74,7 @@ function Footer() {
 				<SocialMediaWrap>
 					<SocialLogo to='/'>
 						{/* <SocialIcon /> */}
-						<img src={cloudLogo} style={{ width: 90, height: 90 }} />
+						<img src={cloudLogo} alt='logo' style={{ width: 90, height: 90 }} />
 						Content Cloud Digital
 					</SocialLogo>
 					<WebsiteRights>Content Cloud Digital © {date.getFullYear()} </WebsiteRights>

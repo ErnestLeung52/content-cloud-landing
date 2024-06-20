@@ -3,7 +3,6 @@ import {
 	Nav,
 	NavbarContainer,
 	NavLogo,
-	NavIcon,
 	HamburgerIcon,
 	NavMenu,
 	NavItem,
@@ -66,7 +65,7 @@ function Navbar() {
 					<NavbarContainer>
 						<NavLogo to='/'>
 							{/* <NavIcon /> */}
-							<img src={cloudLogo} style={{ width: 90, height: 90 }} />
+							<img src={cloudLogo} alt='logo' style={{ width: 90, height: 90 }} />
 							Content Cloud Digital
 						</NavLogo>
 						<HamburgerIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />}</HamburgerIcon>
